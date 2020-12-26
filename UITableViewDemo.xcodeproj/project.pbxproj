@@ -14,6 +14,12 @@
 		16361F9425972A2A00924652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16361F9325972A2A00924652 /* Assets.xcassets */; };
 		16361F9725972A2A00924652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16361F9525972A2A00924652 /* LaunchScreen.storyboard */; };
 		16361F9A25972A2A00924652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16361F9925972A2A00924652 /* main.m */; };
+		16715CF32597320300408529 /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16715CF22597320300408529 /* tgs.plist */; };
+		16715CF62597361600408529 /* HFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16715CF52597361600408529 /* HFTableViewCell.m */; };
+		16715CF925973F0100408529 /* HFShopModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 16715CF825973F0100408529 /* HFShopModal.m */; };
+		16715CFD25974F3800408529 /* HFXIBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16715CFB25974F3800408529 /* HFXIBTableViewCell.m */; };
+		16715CFE25974F3800408529 /* HFXIBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16715CFC25974F3800408529 /* HFXIBTableViewCell.xib */; };
+		16715D012597545E00408529 /* HFStoryBoardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16715D002597545E00408529 /* HFStoryBoardTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +35,16 @@
 		16361F9625972A2A00924652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16361F9825972A2A00924652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16361F9925972A2A00924652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16715CF22597320300408529 /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		16715CF42597361600408529 /* HFTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFTableViewCell.h; sourceTree = "<group>"; };
+		16715CF52597361600408529 /* HFTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFTableViewCell.m; sourceTree = "<group>"; };
+		16715CF725973F0100408529 /* HFShopModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFShopModal.h; sourceTree = "<group>"; };
+		16715CF825973F0100408529 /* HFShopModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFShopModal.m; sourceTree = "<group>"; };
+		16715CFA25974F3800408529 /* HFXIBTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFXIBTableViewCell.h; sourceTree = "<group>"; };
+		16715CFB25974F3800408529 /* HFXIBTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFXIBTableViewCell.m; sourceTree = "<group>"; };
+		16715CFC25974F3800408529 /* HFXIBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HFXIBTableViewCell.xib; sourceTree = "<group>"; };
+		16715CFF2597545E00408529 /* HFStoryBoardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFStoryBoardTableViewCell.h; sourceTree = "<group>"; };
+		16715D002597545E00408529 /* HFStoryBoardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFStoryBoardTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +77,23 @@
 		16361F8625972A2900924652 /* UITableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				16715CF22597320300408529 /* tgs.plist */,
 				16361F8725972A2900924652 /* AppDelegate.h */,
 				16361F8825972A2900924652 /* AppDelegate.m */,
 				16361F8A25972A2900924652 /* SceneDelegate.h */,
 				16361F8B25972A2900924652 /* SceneDelegate.m */,
 				16361F8D25972A2900924652 /* ViewController.h */,
 				16361F8E25972A2900924652 /* ViewController.m */,
+				16715CFA25974F3800408529 /* HFXIBTableViewCell.h */,
+				16715CFB25974F3800408529 /* HFXIBTableViewCell.m */,
+				16715CFC25974F3800408529 /* HFXIBTableViewCell.xib */,
+				16715CF42597361600408529 /* HFTableViewCell.h */,
+				16715CF52597361600408529 /* HFTableViewCell.m */,
+				16715CFF2597545E00408529 /* HFStoryBoardTableViewCell.h */,
+				16715D002597545E00408529 /* HFStoryBoardTableViewCell.m */,
 				16361F9025972A2900924652 /* Main.storyboard */,
+				16715CF725973F0100408529 /* HFShopModal.h */,
+				16715CF825973F0100408529 /* HFShopModal.m */,
 				16361F9325972A2A00924652 /* Assets.xcassets */,
 				16361F9525972A2A00924652 /* LaunchScreen.storyboard */,
 				16361F9825972A2A00924652 /* Info.plist */,
@@ -102,6 +128,7 @@
 		16361F7C25972A2900924652 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HF;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = renjinwei;
 				TargetAttributes = {
@@ -134,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				16361F9725972A2A00924652 /* LaunchScreen.storyboard in Resources */,
+				16715CF32597320300408529 /* tgs.plist in Resources */,
 				16361F9425972A2A00924652 /* Assets.xcassets in Resources */,
 				16361F9225972A2900924652 /* Main.storyboard in Resources */,
+				16715CFE25974F3800408529 /* HFXIBTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,10 +175,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16715D012597545E00408529 /* HFStoryBoardTableViewCell.m in Sources */,
 				16361F8F25972A2900924652 /* ViewController.m in Sources */,
+				16715CFD25974F3800408529 /* HFXIBTableViewCell.m in Sources */,
 				16361F8925972A2900924652 /* AppDelegate.m in Sources */,
 				16361F9A25972A2A00924652 /* main.m in Sources */,
 				16361F8C25972A2900924652 /* SceneDelegate.m in Sources */,
+				16715CF62597361600408529 /* HFTableViewCell.m in Sources */,
+				16715CF925973F0100408529 /* HFShopModal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +328,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.UITableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,6 +347,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cisco.UITableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
